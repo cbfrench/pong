@@ -1,0 +1,52 @@
+body{
+    color: #888888;
+    background-color: black;
+    font-family: Oswald, sans-serif;
+    text-align: center;
+    overflow: hidden;
+}
+h1{
+    font-weight: 100;
+    letter-spacing: 0.25rem;
+    font-size: 3rem;
+}
+h2{
+    font-weight: 100;
+    font-size: 25rem;
+    margin-top: -5rem;
+}
+#title{
+    text-align: center;
+    text-transform: uppercase;
+}
+#player1, #player2{
+    position: absolute;
+    height: 8rem;
+    top: 20rem;
+    width: 2rem;
+    background-color: white;
+}
+#player1{
+    left: 5rem;
+}
+#player2{
+    right: 5rem;
+    display: none;
+}
+#ball{
+    position: absolute;
+    height: 2rem;
+    width: 2rem;
+    top: 10rem;
+    left: 50%;
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+
